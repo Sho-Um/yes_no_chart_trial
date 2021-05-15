@@ -8,13 +8,14 @@ $(function(){
      return false;
   });
 });
+
 $(function(){
    h = $(window).height();
    h = h-30;
    $(".question").css("min-height", h + "px");
    $(".answerList .box").css("min-height", h + "px");
-   
 });
+
 function show(idName){ 
    $("#" + idName).show();
 }

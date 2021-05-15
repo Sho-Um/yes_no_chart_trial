@@ -9,7 +9,7 @@
 <meta name="description" content="" />
 <meta name="keywords" content="" />
 <link rel="stylesheet" href="css/reset.css" type="text/css">
-<link rel="stylesheet" href="css/style.css?" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script&display=swap" rel="stylesheet">
@@ -123,31 +123,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-$(function(){
-   $('a[href^=#]').click(function() {
-      var speed = 600;
-      var href= $(this).attr("href");
-      var target = $(href == "#" || href == "" ? 'html' : href);
-      var position = target.offset().top;
-      $('body,html').animate({scrollTop:position}, speed, 'swing');
-      return false;
-   });
-});
-$(function(){
-    h = $(window).height();
-    h = h-30;
-    $(".question").css("min-height", h + "px");
-    $(".answerList .box").css("min-height", h + "px");
-    
-});
-function show(idName){ 
-    $("#" + idName).show();
-}
-
-</script>
-
+<script src="js/script.js"></script>
 
 </body>
 </html>
