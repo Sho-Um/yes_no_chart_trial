@@ -26,13 +26,12 @@ body {
     margin: 0 auto;
     max-height: 210px;
     z-index: 100000;
-    
     color:rgba(57, 137, 149, 0.8);
     font-weight: bold;
     text-align: center;
     padding: 0.25em;
-    border-top: solid 2px rgba(57, 137, 149, 1);
-    border-bottom: solid 2px rgba(57, 137, 149, 1);
+    /* border-top: solid 1.7px rgba(57, 137, 149, 0.8); */
+    /* border-bottom: solid 1.7px rgba(57, 137, 149, 0.8); */
     background: radial-gradient(rgb(239, 250, 250) 30%, rgb(190, 229, 241) 60%, #add0f0 80%);
     /* background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px); */
 
@@ -245,9 +244,10 @@ main {
 }
 
 .point_box {
-    background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-    background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-    padding: 4px;
+    /* background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px); */
+    /* background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px); */
+    border: 1mm ridge #80c8d1;
+    padding: 8px 4px;
     margin: 10px 5px 10px;
     font-size:110%;
 }
@@ -272,12 +272,12 @@ main {
     line-height: 1.4;
     padding: 0.4em 0.5em;
     margin: 1em 0 0.5em;
-    text-align: left;
+    text-align: center;
 }
 
 .point_box .title:after {/*タブ*/
     position: absolute;
-    font-family: FontAwesome,'Quicksand','Avenir','Arial',sans-serif;
+    font-family:  "Shippori Mincho", serif, FontAwesome,'Quicksand','Avenir','Arial',sans-serif;
     content: '\f0a7\ Result';
     background: #80c8d1;
     color: #fff;
@@ -285,7 +285,7 @@ main {
     bottom: 100%;
     border-radius: 5px 5px 0 0;
     padding: 5px 7px 3px;
-    font-size: 0.7em;
+    font-size: 1.0em;
     line-height: 1;
     letter-spacing: 0.05em;
 }
@@ -297,7 +297,7 @@ main {
 }
 
 .bg-y {
-    background: #FFFF73;
+    background: #fabed3;
 }
 
 .fs-18 {
@@ -328,14 +328,14 @@ main {
     padding: 0.5em 1em;
     text-decoration: none;
     background: #f7f7f7;
-    border-left: solid 6px #ff7c5c;/*左線*/
-    color: #ff7c5c;/*文字色*/
+    border-left: solid 6px #89D08F;;/*左線*/
+    color: #89D08F;;/*文字色*/
     font-weight: bold;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 2px 2px rgba(156, 147, 147, 0.29);
 }
 
 .square_btn:active,
 .square_btn:hover {
-    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    box-shadow: inset 0 0 2px rgba(156, 147, 147, 0.1);
     transform: translateY(2px);
 }
