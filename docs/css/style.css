@@ -12,7 +12,7 @@ th{font-weight:700;vertical-align:top;word-break:break-all;word-wrap:break-word}
 td{font-weight:400;vertical-align:top;word-break:break-all;word-wrap:break-word}
 
 body {
-    font-family: "メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+    font-family: "Shippori Mincho", serif, "メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
     font-size: 14px;
     line-height: 1;
     color: #535353;
@@ -27,14 +27,14 @@ body {
     max-height: 210px;
     z-index: 100000;
     
-    color: #5391BA;
+    color:rgba(57, 137, 149, 0.8);
     font-weight: bold;
     text-align: center;
     padding: 0.25em;
-    border-top: solid 2px #6cb4e4;
-    border-bottom: solid 2px #6cb4e4;
-    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
-    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    border-top: solid 2px rgba(57, 137, 149, 1);
+    border-bottom: solid 2px rgba(57, 137, 149, 1);
+    background: radial-gradient(rgb(239, 250, 250) 30%, rgb(190, 229, 241) 60%, #add0f0 80%);
+    /* background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px); */
 
 }
 #commonHeader section#flows {
@@ -105,7 +105,7 @@ main {
     font-size: 25px;
     color: #282828;
     text-align: center;
-    font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    font-family: "Shippori Mincho", serif, "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
 }
 
 .hds_answer {
@@ -237,10 +237,11 @@ main {
 }
 
 .q{
-    font-family: "Mplus 1p";
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Crimson Text', serif;
     font-size:300%;
     height: 50px;
-    color:#F55257;
+    color:rgba(57, 137, 149, 0.55);
 }
 
 .point_box {
